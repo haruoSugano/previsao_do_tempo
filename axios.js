@@ -18,4 +18,11 @@ const base_url = 'https://api.openweathermap.org/data/2.5/forecast';
 
 const url = `${base_url}?q=${q}&units=${units}&appid=${appid}&lang=${lang}&cnt=${cnt}`;
 
-console.log(url);
+// Exibindo a url da API
+// console.log(url);
+
+const promise = axios.get(url);
+promise.then((response) => {
+    console.log(response.data)
+    return response.data;
+});
