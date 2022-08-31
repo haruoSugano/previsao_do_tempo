@@ -21,5 +21,10 @@ npm install dotenv
 * Copiar e colar no arquivo .env
 
 ```
+<<<<<<< HEAD
 appid=chave api
 ```
+=======
+appid=chave_api
+```
+>>>>>>> 795034d (extraindo dados necessario da api)
