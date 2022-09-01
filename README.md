@@ -1,30 +1,26 @@
 # Previsão do tempo
 
-## Passo a passo
-
-* Criar um diretório chamada previsao_do_tempo; par aisso, na linha de comando. digitar md previsao_do_tempo;
-* Mudar para o diretori previsao_do_tempo; para isso, digitar cd previsao_do_tempo
-* Iniciar um projeto node.js; para isso, digitar 
- ``` 
-  npm init-y
+* Clonar o projeto
 ```
-* Instalar os pacotes axios e dotenv; para isso, digitar:
-
-```
-npm install axios
-
-npm install dotenv
+git clone git@github.com:haruoSugano/previsao_do_tempo.git
 ```
 
-* Acessar o site openweathermap
-* Pegar a chave API
-* Copiar e colar no arquivo .env
+* Instalar o npm
+```
+npm install
+```
+* Acessar a página OpenWeather https://openweather.co.uk/api-products
+  
+* Realizar o login e copiar o appid
+  
+* Alterar o nome do arquivo .env.dist para .env
+  
+* Configurar o arquivo .env
+```
+appid="Inserir a key"
+```
 
+* Para executar:
 ```
-<<<<<<< HEAD
-appid=chave api
+node index.js
 ```
-=======
-appid=chave_api
-```
->>>>>>> 795034d (extraindo dados necessario da api)
